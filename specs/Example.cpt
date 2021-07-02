@@ -1,0 +1,47 @@
+Created by testinium on 1.07.2021
+
+This is a concept file with following syntax for each concept.
+#Thy uygulaması acilir
+* "com.android.packageinstaller:id/permission_allow_button" li elemente tikla
+*"com.turkishairlines.mobile:id/frPrivacy_btnAccept" li elemente tikla
+
+#Bilat al butonuna tiklanir
+*"com.turkishairlines.mobile:id/acMain_btnBooking" li elemente tikla
+
+#Tek yön ucus secilir
+*"com.turkishairlines.mobile:id/frDashboard_tvOneWay" li elemente tikla
+
+#Yön bilgisi olarak SAW to ESB secilir
+*"com.turkishairlines.mobile:id/frDashboard_tvFromCode" li elemente tikla
+*"com.turkishairlines.mobile:id/frAirportSelection_etSearch" li elemente tikla
+*"com.turkishairlines.mobile:id/frAirportSelection_etSearch" li elemente "SAW" degerini gir
+*"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.ListView/android.widget.RelativeLayout[2]/android.widget.TextView[2]" xpath li elemente tikla
+*"com.turkishairlines.mobile:id/frDashboard_tvToCode" li elemente tikla
+*"com.turkishairlines.mobile:id/frAirportSelection_etSearch" li elemente tikla
+*"com.turkishairlines.mobile:id/frAirportSelection_etSearch" li elemente "ESB" degerini gir
+*"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.ListView/android.widget.RelativeLayout[2]/android.widget.TextView[2]" xpath li elemente tikla
+
+#Tarih bilgisi günün tarihinden 2 gün sonraya secilir
+*"com.turkishairlines.mobile:id/frDashboard_rlDeparture" li elemente tikla
+*"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.ViewGroup/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.LinearLayout[1]/android.view.ViewGroup/android.view.ViewGroup[3]/android.widget.FrameLayout[1]/android.widget.TextView" xpath li elemente tikla
+
+#Tamam butonuna tiklanir
+*"com.turkishairlines.mobile:id/frDashboard_btnDone" li elemente tikla
+
+#Yetiskin bilgisi 2 olarak secilir
+*"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.ViewGroup/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.LinearLayout[1]/android.view.ViewGroup/android.view.ViewGroup[2]/android.widget.FrameLayout[7]/android.widget.TextView" xpath li elemente tikla
+
+#Ucus ara butonuna tiklanir
+*"com.turkishairlines.mobile:id/frDashboard_btnSearch" li elemente tikla
+
+#Ucusların listelendigi kontrol edilir
+*"com.turkishairlines.mobile:id/frFlightSearch_tvSortAndFilter" Ucus listesini kontrol et
+*"1" saniye beklenildi.
+
+#Ekonomik uçuş seçilir
+*"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.ViewGroup/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/androidx.recyclerview.widget.RecyclerView[2]/android.view.ViewGroup[1]/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.View" xpath li elemente tikla
+*"/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.view.ViewGroup/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/androidx.recyclerview.widget.RecyclerView[2]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.widget.LinearLayout/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[1]/android.widget.FrameLayout/android.view.ViewGroup" xpath li elemente tikla
+
+# Devam butonuna tıklanır
+*"com.turkishairlines.mobile:id/frFlightSearch_btnContinue" li elemente tikla
+*"2" saniye beklenildi.
